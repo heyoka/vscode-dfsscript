@@ -1,13 +1,13 @@
 {
-	"scopeName": "source.tick",
-	"name": "Tickscript",
-	"comment": "Tickscript language",
+	"scopeName": "source.dfs",
+	"name": "DFSscript",
+	"comment": "DFSscript language",
 	"fileTypes": [
-		"tick"
+		"dfs"
 	],
 	"patterns": [{
         "comment": "Additional keywords",
-		"match": "^var\\s|(?<=\\()lambda(?=:\\s)",
+		"match": "^def\\s|(?<=\\()lambda(?=:\\s)",
 		"name": "keyword.other"
 	},{
         "comment": "Global Variables",
@@ -15,11 +15,11 @@
 		"name": "support.variable"
 	},{
     "comment": "Bools",
-		"match": "TRUE|FALSE",
+		"match": "TRUE|FALSE|true|false",
 		"name": "support.variable"
 	},{
         "comment": "Operators",
-		"match": "AND|OR",
+		"match": "AND|OR|&&|\|\|",
 		"name": "support.variable"
 	},{
         "comment": "Global Variables",
@@ -47,8 +47,8 @@
 		"name": "constant.numeric"
 	},{
     "comment": "Comments",
-		"match": "//.*$",
-		"name": "comment.line.double-slash"
+		"match": "%.*$",
+		"name": "comment.line.percent"
 	},{
         "comment": "Special Characters",
 		"match": "\\.\\w+|\\|\\w+|@\\w+",
