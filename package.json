@@ -1,10 +1,10 @@
 {
-    "name": "vscode-tickscript",
-    "displayName": "Tickscript Syntax Highlighting for Visual Studio Code",
-    "description": "tick supportProvides syntax highlighting for tickscript DSL used by kapacitor",
+    "name": "vscode-dfsscript",
+    "displayName": "DFSscript Syntax Highlighting for Visual Studio Code",
+    "description": "dfs support. Provides syntax highlighting for DFSscript DSL used by faxe",
     "icon": "images/icon.png",
     "version": "0.0.3",
-    "publisher": "mattyjones",
+    "publisher": "heyoka",
     "galleryBanner": {
         "color": "#410E5B",
         "theme": "dark"
@@ -14,24 +14,24 @@
         "vscode": "^0.10.5"
     },
     "keywords": [
-        "tick",
-        "tickscript",
-        "kapacitor"
+        "dfs",
+        "DFSscript",
+        "faxe"
     ],
     "bugs": {
-        "url": "https://github.com/mattyjones/vscode-tickscript/issues",
-        "email": "mattjones@yieldbot.com"
+        "url": "https://github.com/heyoka/vscode-dfsscript/issues",
+        "email": ""
     },
-    "homepage": "https://github.com/mattyjones/vscode-tickscript/blob/master/README.md",
+    "homepage": "https://github.com/heyoka/vscode-dfsscript/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mattyjones/vscode-tickscript.git"
+        "url": "https://github.com/heyoka/vscode-dfsscript.git"
     },
     "categories": [
         "Languages"
     ],
     "scripts": {
-        "vscode:prepublish": "jsonlint-cli syntaxes/tick.json"
+        "vscode:prepublish": "jsonlint-cli syntaxes/dfs.json"
     },
     "contributes": {
         "contributes": {
@@ -44,22 +44,22 @@
         },
         "languages": [
             {
-                "id": "tick",
+                "id": "dfs",
                 "aliases": [
-                    "tickscript",
-                    "tick"
+                    "DFSscript",
+                    "dfs"
                 ],
                 "extensions": [
-                    ".tick"
+                    ".dfs"
                 ],
                 "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "tick",
-                "scopeName": "source.tick",
-                "path": "./syntaxes/tick.json"
+                "language": "dfs",
+                "scopeName": "source.dfs",
+                "path": "./syntaxes/dfs.json"
             }
         ]
     }
