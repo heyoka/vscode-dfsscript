@@ -1,13 +1,10 @@
-# vscode-tickscript README
+# vscode-dfscript README
 
 
 ## Features
 
-Syntax Highlighting for tickscript used with kapacitor
-
-## Known Issues
-
-Triple quotes strings `'''`
+Syntax Highlighting for DFSscript used with [FAXE](https://github.com/heyoka/faxe)
+ 
 
 ## Release Notes
 
@@ -15,10 +12,9 @@ Please see the [CHANGELOG](./CHANGELOG.md)
 
 ## Install
 
-Open up VS Code and hit `F1` or `CMD SHIFT p` and type ext select Install Extension and type `vscode-tickscript` hit enter and reload window to enable.
+Open up VS Code and hit `F1` or `CMD SHIFT p` and type ext select Install Extension and type `vscode-dfsscript` hit enter and reload window to enable.
 
 ## Todo
 
-- integrate tickfmt into package
-- live script to validate and test against
-- fix triple quotes strings
+- support more syntax features 
+- live script to validate and test against 
