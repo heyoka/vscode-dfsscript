@@ -1,10 +1,14 @@
 # vscode-dfscript README
 
+## package
+first run ```npm install``` to resolve packages, then build the package
+```vsce package```
+
 
 ## Features
 
 Syntax Highlighting for DFSscript used with [FAXE](https://github.com/heyoka/faxe)
- 
+
 
 ## Release Notes
 
@@ -16,5 +20,5 @@ Open up VS Code and hit `F1` or `CMD SHIFT p` and type ext select Install Extens
 
 ## Todo
 
-- support more syntax features 
-- live script to validate and test against 
+- support more syntax features
+- live script to validate and test against

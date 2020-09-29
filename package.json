@@ -3,7 +3,7 @@
     "displayName": "DFSscript Syntax Highlighting for Visual Studio Code",
     "description": "dfs support. Provides syntax highlighting for DFSscript DSL used by faxe",
     "icon": "images/icon.png",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "publisher": "heyoka",
     "galleryBanner": {
         "color": "#410E5B",
