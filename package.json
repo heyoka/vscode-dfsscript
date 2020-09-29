@@ -62,5 +62,9 @@
                 "path": "./syntaxes/dfs.json"
             }
         ]
+    },
+    "dependencies": {
+        "jsonlint-cli": "^1.0.1",
+        "vsce": "^1.80.0"
     }
 }
