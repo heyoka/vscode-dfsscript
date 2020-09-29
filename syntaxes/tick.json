@@ -7,7 +7,7 @@
 	],
 	"patterns": [{
         "comment": "Additional keywords",
-		"match": "^def\\s|(?<=\\()lambda(?=:\\s)",
+		"match": "^def\\s|(?<=\\()lambda(?=:\\s)||",
 		"name": "keyword.other"
 	},{
         "comment": "Global Variables",
@@ -19,7 +19,7 @@
 		"name": "support.variable"
 	},{
         "comment": "Operators",
-		"match": "AND|OR|&&|\|\|",
+		"match": "AND|OR|&&|\\|\\|",
 		"name": "support.variable"
 	},{
         "comment": "Global Variables",
@@ -33,6 +33,10 @@
         "comment": "Double quoted string",
 		"match": "\".*\"",
 		"name": "string.double"
+	},{
+		"comment": "text string",
+		"match": "<<<.*>>>",
+		"name": "string.text"
 	},{
         "comment": "Time duration",
 		"match": "\\d+ms|\\d+[uµmshdw]",
